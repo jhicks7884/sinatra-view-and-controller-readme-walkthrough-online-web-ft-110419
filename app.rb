@@ -12,11 +12,10 @@ class App < Sinatra::Base
     erb :reversed
   end
 
-  get '/friends' do
+ get '/friends' do
     # Write your code here!
-    @friends = ['Emily Wilding Davison', 'Harriet Tubman', 'Joan of Arc', 'Malala Yousafzai', 'Sojourner Truth']
+   @friends = ['Emily Wilding Davison', 'Harriet Tubman', 'Joan of Arc', 'Malala Yousafzai', 'Sojourner Truth']
 
-  erb :friends
-
+   erb :friends
   end
 end
